@@ -1,0 +1,18 @@
+.sidenav {
+    width: 290px;
+}
+
+.sidenav .background img {
+    width: 100%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: hsl(0, 0%, 100%);
+}
+
+.container-fluid, .row{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
