@@ -1,8 +1,24 @@
 <?php
 
 return [
+    /**
+     * Define a cor do tema do site
+     * dark - para fundos escuros e cores de fontes claras
+     * light - para fundos claros e cores de contes escuras 
+     */
     'type' => 'dark',
+
+    /**
+     * Define a cor principal do tema do site.
+     * As cores disponíveis são:
+     * primary,  secondary,  success,  danger,  warning,  info,  light ou dark.
+     */
     'bg' => 'danger',
+
+
+    /**
+     * Define os itens de navegação do menu principal
+     */
     'itens' => [
         [
             'title' => 'Home',
