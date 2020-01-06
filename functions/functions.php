@@ -127,7 +127,7 @@ function createSession () {
 function session($key = null, $value = null) {
     createSession();
     if(! is_null($key) && is_null($value)) {
-        return $_SESSION[$key];
+        return $_SESSION[$key] ?? 'pt-BR';
     }
     elseif(! is_null($key) && ! is_null($value)) {
         $_SESSION[$key] = $value;

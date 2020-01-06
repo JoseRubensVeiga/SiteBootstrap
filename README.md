@@ -1,4 +1,4 @@
-"# site_bootstrap" 
 # site_bootstrap
 
-Alteração 2
+Este é um site simples usando bootstrap e PHP
+O intuito é treinar as interações do PHP com o bootstrap
